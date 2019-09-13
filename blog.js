@@ -15,8 +15,8 @@ function Post(prop) {
 class Blog extends React.Component {
   render() {
     return (
-      <h1>My Blog Post</h1>
       <div>
+        <h1>My Blog Post</h1>
         <Post title="Blog One" author="Thing 1" date="13 Sep 2019" />
         <Post title="Blog Two" author="Thing 2" date="13 Sep 2019" />
         <Post title="Blog Three" author="Thing 3" date="13 Sep 2019" />
